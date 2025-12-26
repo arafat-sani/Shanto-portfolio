@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import image from "../assets/myPhoto.png";
+import image from "../assets/Santo.jpeg";
 import { FiDownload } from "react-icons/fi";
 import { FiMail, FiPhone } from "react-icons/fi";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -213,7 +213,7 @@ const Hero = () => {
           className="relative flex justify-center flex-1 max-w-sm md:max-w-md"
         >
           <motion.div
-            className="absolute w-68 h-80 md:w-72 md:h-72 rounded-full border border-blue-500/40"
+            className="absolute w-68 h-68 md:w-72 md:h-72 rounded-full border border-blue-500/40"
             animate={{ rotate: 360 }}
             transition={{
               duration: 18,
@@ -222,10 +222,10 @@ const Hero = () => {
             }}
           />
 
-          <div className="absolute w-64 md:w-72 h-90 md:h-72 rounded-3xl bg-white/5 border border-white/15 backdrop-blur-xl shadow-[0_0_70px_rgba(37,99,235,0.35)]" />
+          <div className="absolute w-64 md:w-72 h-64 md:h-72 rounded-3xl bg-white/5 border border-white/15 backdrop-blur-xl shadow-[0_0_70px_rgba(37,99,235,0.35)]" />
 
-          <motion.img className="mt-2"
-            src="WhatsApp Image 2025-12-27 at 12.19.09 AM.jpeg"
+          <motion.img
+            src={image}
             alt="Mahfuz Photo"
             className="relative w-56 h-56 md:w-64 md:h-64 object-cover rounded-3xl shadow-2xl border border-white/20"
             animate={{ y: [0, -10, 0] }}

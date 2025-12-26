@@ -57,7 +57,7 @@ My focus is always on clarity, retention, and performance.
 
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-4 sm:gap-6 ">
           {skills.map(({ name, icon: Icon }) => (
-            <div  className="w-[20px]]"
+            <div 
               key={name}
               className="group flex flex-col items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-8 backdrop-blur-md shadow-[0_0_25px_rgba(15,23,42,0.6)] hover:border-blue-500/60 hover:shadow-[0_0_35px_rgba(37,99,235,0.65)] transition-all"
             >
