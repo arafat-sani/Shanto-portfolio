@@ -5,31 +5,30 @@ export default function Contact() {
   const formRef = useRef(null);
   const [status, setStatus] = useState("");
 
- const handleSubmit = (e) => {
-  e.preventDefault();
-  setStatus("Sending...");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
 
-  emailjs
-    .sendForm(
-      "service_rd8t63u",
-      "template_7s064ds",
-      formRef.current,
-      "zd0PgJxsACTMXoNVn"
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-        setStatus("Message sent successfully!");
-        formRef.current.reset();
-      },
-      (error) => {
-        console.error(error.text);
-        setStatus("Failed to send. Please try again.");
-      }
-    );
-};
-
-
+    emailjs
+      .sendForm(
+        "service_v6vkpzr", // e.g. "service_xxxxxx" shanto
+        "template_016ia6k", // e.g. "template_xxxxxx" shanto
+        formRef.current,
+        {
+          publicKey: "zcaIGBLwGfWMmFPRQ",//shanto
+        }
+      )
+      .then(
+        () => {
+          setStatus("Message sent successfully!");
+          formRef.current.reset();
+        },
+        () => {
+          setStatus("Failed to send. Please try again.");
+        }
+      );
+  };
+ // servide id:service_0v25q2p
   return (
     <section id="contact" className="py-10">
       <div className="max-w-6xl mx-auto px-6">
@@ -52,11 +51,11 @@ export default function Contact() {
         <div className="mb-6 flex flex-wrap gap-4 text-xs sm:text-sm text-slate-300/90">
           <span className="inline-flex items-center gap-2 rounded-full bg-slate-900/70 border border-white/10 px-3 py-1.5">
             <span className="h-2 w-2 rounded-full bg-blue-400" />
-            <span>Email: shantoar528@gmail.com</span>
+            <span>Email: mahfuzur3456@gmail.com</span>
           </span>
           <span className="inline-flex items-center gap-2 rounded-full bg-slate-900/70 border border-white/10 px-3 py-1.5">
             <span className="h-2 w-2 rounded-full bg-emerald-400" />
-            <span>Phone: 01407706293</span>
+            <span>Phone: 01687848893</span>
           </span>
         </div>
 
@@ -126,7 +125,7 @@ export default function Contact() {
               href="mailto:mahfuzur3456@gmail.com"
               className="text-blue-400 underline underline-offset-2"
             >
-            shantoar528@gmail.com
+             shantoar528@gmail.com
             </a>
             .
           </p>
