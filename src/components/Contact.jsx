@@ -60,11 +60,11 @@ export default function Contact() {
         <div className="mb-6 flex flex-wrap gap-4 text-xs sm:text-sm text-slate-300/90">
           <span className="inline-flex items-center gap-2 rounded-full bg-slate-900/70 border border-white/10 px-3 py-1.5">
             <span className="h-2 w-2 rounded-full bg-blue-400" />
-            <span>Email: mahfuzur3456@gmail.com</span>
+            <span>Email:shantoar528@gmail.com</span>
           </span>
           <span className="inline-flex items-center gap-2 rounded-full bg-slate-900/70 border border-white/10 px-3 py-1.5">
             <span className="h-2 w-2 rounded-full bg-emerald-400" />
-            <span>Phone: 01687848893</span>
+            <span>Phone: 01407706293</span>
           </span>
         </div>
 
