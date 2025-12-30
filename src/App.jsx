@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { FaReact, FaStar } from "react-icons/fa";
 import Education from "./components/Education";
+import { Projects } from "./components/Projects";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -63,11 +64,12 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
+        <Projects></Projects>
         <Education></Education>
         <Skills />
       
         <CompetitiveProgramming />
-
+        
         <Contact />
         <Footer />
       </div>

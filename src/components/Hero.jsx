@@ -116,7 +116,7 @@ const Hero = () => {
             variants={fadeUp}
             className="relative text-base sm:text-lg md:text-[1.05rem] text-slate-300/90 leading-relaxed max-w-xl"
           >
-            <TypingText text="Vedio Editor | Growth-Driven Content Specialist " />
+            <TypingText text="Video Editor | Growth-Driven Content Specialist " />
             <br />
             <span className="text-sm sm:text-base text-slate-300/80">
               {/* I build modern web apps with clean UI, strong problem solving, and
@@ -140,7 +140,7 @@ const Hero = () => {
             </motion.a>
 
             {/* Resume button – served from /public */}
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.05, y: -1 }}
               whileTap={{ scale: 0.96, y: 0 }}
               href="https://drive.google.com/uc?export=download&id=1yRNYJD_NwcNTgKdfMTFhsKB8zAqFpybx"
@@ -148,7 +148,7 @@ const Hero = () => {
             >
               <span>Resume</span>
               <FiDownload className="text-base" />
-            </motion.a>
+            </motion.a> */}
 
             <motion.a
               whileHover={{ scale: 1.05, y: -1 }}
@@ -186,6 +186,7 @@ const Hero = () => {
               >
                 <FaFacebookSquare className="size-5" />
               </a>
+              
             </div>
           </motion.div>
 
