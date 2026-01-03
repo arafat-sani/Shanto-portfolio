@@ -9,7 +9,10 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { FaReact, FaStar } from "react-icons/fa";
 import Education from "./components/Education";
-import { Projects } from "./components/Projects";
+import { Portfolio } from "./components/Portfolio";
+
+
+
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -64,7 +67,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
-        <Projects></Projects>
+        <Portfolio></Portfolio>
         <Education></Education>
         <Skills />
       

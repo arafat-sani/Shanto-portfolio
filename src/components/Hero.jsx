@@ -109,7 +109,7 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-indigo-400 bg-clip-text text-transparent">
               Shanto
             </span>{" "}
-            <span className="inline-block">👋</span>
+            <span className="inline-block"></span>
           </motion.h1>
 
           <motion.p
@@ -200,7 +200,7 @@ const Hero = () => {
               <span className="h-8 w-8 rounded-full bg-emerald-500/70 border border-slate-900" />
             </div>
             <p>
-              I Help <span className="text-[#ffc600]">Content Creators</span>{" "}
+              I Help <span className="text-[#ffc600]">Content Creators,Coaches</span>{" "}
               Achieve Growth Through <span className="text-[#ffc600]">Editing</span>{" "}
             </p>
           </motion.div>

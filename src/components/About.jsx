@@ -18,30 +18,25 @@ const About = () => {
           <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-blue-500/60 to-transparent" />
 
           <p className="text-sm sm:text-base sm:text-justify text-slate-300/90 leading-relaxed mb-3">
-            Hi, I’m Azizur Rahman Shanto, a video editor with a deep passion for turning content into a growth engine.
+           Hi, I’m Azizur Rahman Shanto, a video editor who focuses on turning content into growth.
           </p>
 
           <p className="text-sm sm:text-base sm:text-justify text-slate-300/90 leading-relaxed mb-3">
-            I believe video editing is more than just cuts, transitions, or effects. Done right, it directly impacts attention, retention, engagement, and business growth.
+           For me, video editing is more than just visuals. The right edit can improve attention, retention, engagement, and real business results.
+
           </p>
 
           <p className="text-sm sm:text-base sm:text-justify text-slate-300/90 leading-relaxed mb-3">
-           I work with business owners, content creators, coaches, and educational brands who want their videos to do more than just look good ,they want results.
+          I work with <span className="text-[#ffc600]">business owners, content creators, coaches, and educational brands</span> who want their videos to perform better.From short-form videos that stop the scroll to long-form content that builds trust, my goal is simple:<br></br>
+<p className="text-[#ffc600]">HELP YOUR CONTENT PERFORM BETTER AND GROW YOUR BRAND.</p>
           </p>
 
           <p className="text-sm sm:text-base sm:text-justify text-slate-300/90 leading-relaxed">
-            My approach is strategy-first. Before editing, I focus on understanding the audience, platform behavior, and the goal behind each video. Every creative decision I make is intentional, from pacing and storytelling to structure and visual emphasis.
+            If you’re serious about growth, I’d be happy to work together.
           </p>
-          <p className="text-sm sm:text-base sm:text-justify text-slate-300/90 leading-relaxed">
-           Whether it’s short-form content designed to stop the scroll or long-form videos built to hold attention and build trust, my goal stays the same:
-          </p>
-          <p className="text-sm sm:text-base sm:text-justify text-slate-300/90 leading-relaxed">
-           HELP YOUR CONTENT PERFORM BETTER AND GROW YOUR BRAND.
-          </p>
-          <p className="text-sm sm:text-base sm:text-justify text-slate-300/90 leading-relaxed">
-         
-If you’re serious about growth and want editing that supports your vision and business goals, I’d love to collaborate.
-          </p>
+          
+          
+          
 
           {/* Small meta row */}
           <div className="mt-5 flex flex-wrap items-center gap-3 text-xs sm:text-sm text-slate-300/80">
