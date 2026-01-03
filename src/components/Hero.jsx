@@ -132,7 +132,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05, y: -1 }}
               whileTap={{ scale: 0.96, y: 0 }}
-              href="#projects"
+              href="#portfolio"
               className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 px-6 py-3 text-sm sm:text-base font-semibold text-white shadow-lg shadow-blue-500/30 transition"
             >
               <span>View Portfolio</span>
