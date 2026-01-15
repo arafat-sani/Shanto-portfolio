@@ -68,7 +68,7 @@ export const Portfolio = () => {
               if (!openedCategoriesMobile.includes(cat.key)) {
                 setOpenedCategoriesMobile([...openedCategoriesMobile, cat.key]);
               }
-              window.scrollTo({ top: 0, behavior: "smooth" });
+              // window.scrollTo({ top: 0, behavior: "smooth" });
             } else {
               setActiveCategoryDesktop(cat.key);
               setActiveType("premium"); // reset type on desktop
